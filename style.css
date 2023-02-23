@@ -1,0 +1,246 @@
+@font-face
+{
+font-family: myFirstFont;
+src: url('Fontspring-DEMO-cosmata-regular.otf');
+}
+*{
+				overflow-x:clip;
+				font-family: myFirstFont;
+}
+.Orange{
+    	color:#f75023;
+    	font-weight: 800 !important;    	
+    	font-size: 23px;
+}
+.Black{
+    background-color:black;
+}
+.BigText{
+				font-size: 40px;
+				font-weight: 600 !important;
+}
+.MediumText{
+				font-size: 30px;
+				margin: 0 15px;
+				font-weight: 700 !important;
+}
+.NormalText{
+				font-size: 19px;
+}
+.text-muted{
+				color: rgba(111,108,129,255) !important;
+				font-size:19px;
+}
+.nav-link > .text-dark{
+				font-size:17px;
+}
+.nav-item:hover >.nav-link > .text-dark{
+				color:#e55730 !important;
+}
+.text{
+				font-weight: 400;
+				display: block;
+				letter-spacing:1px;
+				margin:0 15px;
+}
+.text-justify,.text-left,.text-center{
+				margin:0 15px;
+}
+.Red{
+				color: #f35014;
+}
+.Violet{
+				
+}
+.Green{
+				color: 	#21bb5b;
+}:
+.bg-green{
+				background-color: 	#21bb5b;
+}
+.btn{
+				padding: 17px 28px;
+				font-size: 17px;
+				border-radius:30px;
+				color: #fffdfb;
+    font-weight:500;
+}
+.btn-orange{
+				background-color:#f75023;
+}
+.btn-violet{
+				background-color: #9380e6;
+}
+.btn-green{
+				background-color:	#21bb5b ;
+}
+.bottom-shadow{
+				box-shadow: 0 3px 5px rgba(0,0,0,.06);
+				z-index: 999;
+}
+.navbar-toggler{
+    	border:1px solid white !important;
+}
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+ } 
+.myProfile{
+				margin-top: -1rem;
+}
+#myImg{
+				height: 340px;
+    width: 340px;
+				margin-top: 13%;
+				z-index: -1;
+}
+
+.About,.Services,.Portfolio{
+				background-color:#F0F1FF;
+}
+.carousel-control-prev-icon{
+				color: black !important;
+}
+.carousel-item > img{
+				margin: 20px 0;
+				height: 40%px;
+				background-size:cover ;
+}
+.PortfolioSkills .text-center{
+				text-align:left !important;
+				margin-left: 20px;
+}
+.container .row > .col{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+.container .row > .col >img{
+				height: 50px;
+				width: 50px;
+				border-radius: 5px;
+}
+.services .container{
+				width: 94%;
+				margin: 0 3%;
+				background-color:white;
+				border-radius: 10px;
+}
+.services .container > .image{
+    width: 97px;	
+				height: 97px;
+				display: flex;
+				justify-content: center;
+}
+.services .container >.image > i{
+				font-size: 36px;
+				color: rgba(0,0,0,0.8);
+				line-height: 97px;
+}
+.quotes {
+				height: 60px;
+				width: 60px;
+}
+.reviwer-image{
+				height:60px;
+				width: 60px;
+				border-radius: 50%;
+				object-fit: cover;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.blog-box > img {
+				border-radius: 15px;
+				height: 250px;
+			  width: 50%;
+}
+#input{
+				border-bottom-left-radius:20px ;
+				border-top-left-radius:20px ;
+				background-color: white;
+}
+#send-btn{
+				background-color:#f75023;
+				border-bottom-right-radius:20px ;
+				border-top-right-radius:20px ;
+}
+.input{
+				height: 70px;
+				padding: 10px;
+}
+#email1{
+				border: none;
+				color:rgba(111,108,129,255);
+				font-size: 17px;
+				font-weight:400;
+				outline: none;
+}
+input[type="email"]::placeholder{
+				color:rgba(111,108,129,255);
+				font-weight:400;
+}
+.col-6{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+.container-newsletter{
+				background: url("Moon.svg");
+    background-size: cover;
+    border-radius: 20px;
+}
+.blog-images{
+				height: 30vh;
+				width:300px;
+}
+.coloured-circle{
+				height: 80px;
+				width: 80px;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+.c1{
+				background-color: #fedfd7;
+}
+.c2{
+				background-color: #ddf5e7
+;
+}
+.c3{
+				background-color: #ece9fe;
+}
+.c1 > i{
+				color: #f75023;
+}
+.c2 > i{
+				color: #1bbf59;
+}
+.c3 > i{
+				color: #7f69e7 ;
+}
+.coloured-circle > i{
+				font-size: 20px;
+}
+.inp{
+				height:50px;
+				border-radius:10px;
+				padding: 5px 20px;
+				color: rgba(111,108,129,255);
+				font-size: 17px;
+				border:1px solid #d7dbe6;
+}
+.inp-box{
+				display: flex;
+}
+.footer{
+				
+}
+.ftext{
+				color: rgba(111,108,129,255) !important;
+				font-size: 17px;
+}
+
