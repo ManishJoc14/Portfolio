@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+    .navbar{
+        height: 75px;
+    }
+    .nav-link span {
+        font-size: 19px !important;
+    }
+    .nav-justified .nav-item, .nav-justified>.nav-link {
+        margin-right: 22px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        width: 90px;
+    }
+    #myImg {
+        height: 360px !important;
+        width: 360px !important;
+        margin-bottom: 20px;
+        margin-top: 8% !important;
+    }
+    .fa-brands, .fab {
+        font-size: 35px;
+    }
+    .PortfolioSkills .text-center {
+        margin: 0 50px !important;
+    }
+    .container .row > .col >img {
+        height: 85px !important;
+        width: 70px !important;
+    }
+    .caraosel-text{
+        padding: 0 100px ;
+    }
+    .blog-box > img {
+        height: 380px !important;
+    }
+    .newsletter-input{
+        width: 38%;
+    }
+}
